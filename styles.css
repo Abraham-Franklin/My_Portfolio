@@ -109,6 +109,7 @@ header .find-me{
     font-size: 30px;
     box-shadow: var(--box-shadow-hover);
     background: rgb(34, 37, 42);
+    color: white
 }
 
 .social-media-icon:hover{
@@ -815,7 +816,7 @@ aside::-webkit-scrollbar{
 
 
 .tech-stack-tagline, .tech-stack-title{
-    text-align: left;
+    text-align: center
 }
 
 .tech-category {
