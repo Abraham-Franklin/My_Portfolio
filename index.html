@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franklin's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <!-- <link rel="stylesheet" href="screensizes.css"> -->
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="fonts/Montserrat,Poppins/Poppins/Poppins-Medium.ttf">
+</head>
+<body>
+    <header>
+        <img class="profile-pic" src="images/profile-pic.jpeg" alt="profile pic">
+        <ol>
+            <li><i class="fa-sharp fa-solid fa-house"></i> <a href="#hero-section">HOME</a></li>
+            <li><i class="fa-sharp fa-solid fa-briefcase"></i> <a href="#features">FEATURES</a></li>
+            <li><i class="fa-sharp fa-solid fa-layer-group"></i> <a href="#portfolio">PORTFOLIO</a></li>
+            <li><i class="fas fa-user-group"></i> <a href="#resume">RESUME</a></li>
+            <li><i class="fas fa-user-group"></i> <a href="#tech-stack">TECH STACK</a></li>
+            <li><i class="fas fa-user-group"></i> <a href="#testimonial">TESTIMONIAL</a></li>
+            <li><i class="fa-sharp fa-solid fa-address-card"></i> <a href="#contact">CONTACT</a></li>
+        </ol>
+        <hr>
+        <p class="find-me">FIND ME WITH</p>
+        <div class="social-media-icon-div">
+            <span class="fa-brands fa-facebook social-media-icon"></span>
+            <span class="fa-brands fa-whatsapp social-media-icon"></span>
+            <span class="fa-solid fa-envelope social-media-icon"></span>
+        </div>
+    </header>
+    <aside>
+        <main>
+            <article class="navigation-nav-bar">
+                <img src="images/logo.png" alt="logo">
+                <span class="nav-menu fa-solid fa-regular fa-bars"></span>
+            </article>
+            <section id="hero-section">
+                <div class="hero-section-child-div">
+                    <p class="my-name">OKUMBOR FRANKLIN</p>
+                    <p class="my-id header-tag">I'm a <span class="span-tag"></span><span class="span-tag-cursor">|</span></p>
+                    <p class="my-description">Passionate about automating workflows, optimizing system performance, and solving complex tech challenges.</p>
+                    <div class="hero-section-quick-links">
+                        <a href="#">Contact <span class="fa-sharp fa-solid fa-address-card"></span></a>
+                        <a href="#">Projects <span class="fa-sharp fa-solid fa-layer-group"></span></a>
+                    </div>
+                </div>
+            </section>
+            <section id="features">
+                <p class="tagline features-tagline">FEATURES</p>
+                <p class="features-title title">What I Do</p>
+                <div class="features-gallery features-gallery-01">
+                    <div class="features-tile-sub-div">
+                        <div class="features-tile-sub-div-div">
+                            <span class="fa-solid fa-regular fa-bars"></span>
+                            <p class="title-body">Full-Stack Development</p>
+                            <p class="text-body">Building scalable web applications using Python, Django, React, and JavaScript.</p>
+                        </div>
+                        <span class="fa fa-2x fa-arrow-right"></span>
+                    </div>
+                    <div class="features-tile-sub-div">
+                        <div class="features-tile-sub-div-div">
+                            <span class="fa-solid fa-regular fa-bars"></span>
+                            <p class="title-body">DevOps & Automation</p>
+                            <p class="text-body">Optimizing infrastructure with CI/CD, Docker, NGINX, and AWS cloud services.</p>
+                        </div>
+                        <span class="fa fa-2x fa-arrow-right"></span>
+                    </div>
+                    <div class="features-tile-sub-div">
+                        <div class="features-tile-sub-div-div">
+                            <span class="fa-solid fa-regular fa-bars"></span>
+                            <p class="title-body">Database Management</p>
+                            <p class="text-body">Designing and managing relational databases for efficient data storage and retrieval.</p>
+                        </div>
+                        <span class="fa fa-2x fa-arrow-right"></span>
+                    </div>
+                    <div class="features-tile-sub-div">
+                        <div class="features-tile-sub-div-div">
+                            <span class="fa-solid fa-regular fa-bars"></span>
+                            <p class="title-body">System Architecture</p>
+                            <p class="text-body">Designing robust, scalable, and maintainable system architectures for high-performance applications.</p>
+                        </div>
+                        <span class="fa fa-2x fa-arrow-right"></span>
+                    </div>
+                    <div class="features-tile-sub-div">
+                        <div class="features-tile-sub-div-div">
+                            <span class="fa-solid fa-regular fa-bars"></span>
+                            <p class="title-body">Software Engineering</p>
+                            <p class="text-body">Applying software development principles to create maintainable and efficient systems.</p>
+                        </div>
+                        <span class="fa fa-2x fa-arrow-right"></span>
+                    </div>
+                    <div class="features-tile-sub-div">
+                        <div class="features-tile-sub-div-div">
+                            <span class="fa-solid fa-regular fa-bars"></span>
+                            <p class="title-body">API Development & Integration</p>
+                            <p class="text-body">Creating and connecting APIs that enable seamless communication between diverse applications and services.</p>
+                        </div>
+                        <span class="fa fa-2x fa-arrow-right"></span>
+                    </div>
+                </div>
+            </section>
+                
+            <!-- <section id="portfolio">
+                <p class="portfolio-tag-line tagline">Visit my portfolio and keep your feedback</p>
+                <p class="portfolio-title title">My Portfolio</p>
+                <div class="portfolio-gallery portfolio-gallery-01">
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/logo.png" alt="E-commerce Platform">
+                        </div>
+                        <p class="work-title">E-commerce Platform</p>
+                        <p class="work-text-body">Developed a fully functional online store with Django, React, and Stripe payment integration.</p>
+                    </div>
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/logo.png" alt="DevOps Automation">
+                        </div>
+                        <p class="work-title">DevOps Automation</p>
+                        <p class="work-text-body">Automated CI/CD pipelines with GitHub Actions and deployed using Docker and NGINX.</p>
+                    </div>
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/logo.png" alt="Database Optimization">
+                        </div>
+                        <p class="work-title">Database Optimization</p>
+                        <p class="work-text-body">Designed and optimized relational databases for high-performance data management.</p>
+                    </div>
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/logo.png" alt="Cybersecurity Implementation">
+                        </div>
+                        <p class="work-title">Cybersecurity Implementation</p>
+                        <p class="work-text-body">Implemented security best practices to protect web applications from vulnerabilities.</p>
+                    </div>
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/logo.png" alt="AI-Powered Chatbot">
+                        </div>
+                        <p class="work-title">AI-Powered Chatbot</p>
+                        <p class="work-text-body">Built a chatbot using Python and NLP to enhance customer interactions.</p>
+                    </div>
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/logo.png" alt="Tech Startup Website">
+                        </div>
+                        <p class="work-title">Tech Startup Website</p>
+                        <p class="work-text-body">Developed a sleek, responsive website for a startup using React and Tailwind CSS.</p>
+                    </div>
+                </div>
+            </section> -->
+
+
+
+            <section id="portfolio">
+                <p class="portfolio-tag-line tagline">Visit my portfolio and share your feedback</p>
+                <p class="portfolio-title title">My Portfolio</p>
+                <div class="portfolio-gallery portfolio-gallery-01">
+
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/attendance-ss.png" alt="Class Attendance System">
+                        </div>
+                        <p class="work-title">Class Attendance System</p>
+                        <p class="work-text-body">Developed a QR code-based attendance tracking system using Django REST Framework and React. Students scan dynamic QR codes to mark attendance, with real-time validation and Excel report generation.</p>
+                    </div>
+
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/cybertron-ss.png" alt="Early Disease Detection System (Cybertron)">
+                        </div>
+                        <p class="work-title">Early Disease Detection System (Cybertron - AtmoCare)</p>
+                        <p class="work-text-body">Designed an AI-driven disease prediction system that analyzes patient symptoms to provide early diagnosis insights, improving health outcomes through predictive analytics.</p>
+                    </div>
+
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/nucs-ss.png" alt="NUCS Portal">
+                        </div>
+                        <p class="work-title">NUCS Portal</p>
+                        <p class="work-text-body">Built a student information and communication portal for the Nigerian Universities Computer Students association, featuring authentication, event updates, and member data management.</p>
+                    </div>
+
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/vlog -ss.png" alt="Vlog - Blogging Platform">
+                        </div>
+                        <p class="work-title">Vlog - Blogging Platform</p>
+                        <p class="work-text-body">Developed a modern blog platform with Django REST Framework and React, enabling users to create, edit, and interact with posts in a responsive and visually appealing interface.</p>
+                    </div>
+
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/website-monitor-ss.png" alt="Website Uptime Monitoring System">
+                        </div>
+                        <p class="work-title">Website Uptime Monitoring System</p>
+                        <p class="work-text-body">Implemented a microservices-based monitoring system using Django, React, and Celery to check website availability and alert users of downtime events.</p>
+                    </div>
+
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/weather-ss1.png" alt="Weather Forecast Desktop App">
+                        </div>
+                        <p class="work-title">Weather Forecast Desktop App</p>
+                        <p class="work-text-body">Created a desktop weather application that fetches real-time weather data using Python APIs and displays forecasts with a clean graphical interface.</p>
+                    </div>
+
+                    <div class="portfolio-tile">
+                        <div class="portfolio-image-scale">
+                            <img class="portfolio-tile-img" src="images/portfolio-ss.png" alt="Personal Portfolio Website">
+                        </div>
+                        <p class="work-title">Personal Portfolio Website</p>
+                        <p class="work-text-body">Developed this portfolio using HTML, CSS, and JavaScript to highlight my skills, experience, and software development projects.</p>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section id="resume">
+    <p class="resume-tagline tagline">3+ Years of Experience</p>
+    <p class="resume-title title">My Resume</p>
+    <div>
+        <ul>
+            <li id="resume-active"><a href="#">EDUCATION</a> <span class="fa fa-education"></span></li>
+            <li><a href="#">PRO SKILLS</a> <span class="fa fa-education"></span></li>
+            <li><a href="#">EXPERIENCE</a> <span class="fa fa-education"></span></li>
+            <li><a href="#">INTERVIEW</a> <span class="fa fa-education"></span></li>
+        </ul>
+
+        <article class="resume-menu">
+
+            <!-- EDUCATION -->
+            <div id="education" class="resume-sub-menu timeline-details-overall">
+                <p class="year-duration">2014 - 2025</p>
+                <p class="education-title">Education Quality</p>
+
+                <div class="timeline">
+                    <div class="timeline-aside timeline-left">
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content highlighted">
+                                    <p class="timeline-content-header">B.Sc. Computer Science</p>
+                                    <p class="timeline-content-institute">University of Calabar (2021 - 2025)</p>
+                                    <span class="rating">3.65 / 5</span>
+                                </div>
+                                <div class="timeline-item-body">Currently pursuing a Bachelor’s degree in Computer Science with strong emphasis on software engineering, data structures, and system design.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content">
+                                    <p class="timeline-content-header">O'Level Certification</p>
+                                    <p class="timeline-content-institute">Peniel Academy Secondary School (2014 - 2020)</p>
+                                </div>
+                                <div class="timeline-item-body">Completed high school with strong background in mathematics and sciences, forming the foundation for logical and analytical problem-solving.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-aside timeline-right">
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content highlighted">
+                                    <p class="timeline-content-header">Frontend Web Development</p>
+                                    <p class="timeline-content-institute">NewMan Bootcamp (May 2021 - Nov 2021)</p>
+                                </div>
+                                <div class="timeline-item-body">Gained practical experience in HTML, CSS, and JavaScript through hands-on projects, emphasizing responsive design and user interface interactivity.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content">
+                                    <p class="timeline-content-header">Continuous Self Development</p>
+                                    <p class="timeline-content-institute">Online Learning Platforms (2022 - Present)</p>
+                                </div>
+                                <div class="timeline-item-body">Engaged in consistent upskilling through various online platforms, exploring advanced backend development, APIs, and DevOps tools.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROFESSIONAL SKILLS -->
+            <div id="pro-skills" class="resume-sub-menu pro-skills">
+                <p class="year-duration">Technical & Soft Skills</p>
+                <p class="education-title progress-title">Professional Skills</p>
+                <div class="professional-skill-container">
+
+                    <div class="progress-container">
+                        <div class="progress-bar"><span class="label">Python</span><div class="bar"><div class="fill" style="width: 90%;"></div><span class="percentage">90%</span></div></div>
+                        <div class="progress-bar"><span class="label">JavaScript</span><div class="bar"><div class="fill" style="width: 88%;"></div><span class="percentage">88%</span></div></div>
+                        <div class="progress-bar"><span class="label">React.js</span><div class="bar"><div class="fill" style="width: 70%;"></div><span class="percentage">70%</span></div></div>
+                        <div class="progress-bar"><span class="label">HTML</span><div class="bar"><div class="fill" style="width: 100%;"></div><span class="percentage">100%</span></div></div>
+                        <div class="progress-bar"><span class="label">CSS</span><div class="bar"><div class="fill" style="width: 95%;"></div><span class="percentage">95%</span></div></div>
+                        <div class="progress-bar"><span class="label">Bootstrap</span><div class="bar"><div class="fill" style="width: 80%;"></div><span class="percentage">80%</span></div></div>
+                    </div>
+
+                    <div class="progress-container">
+                        <div class="progress-bar"><span class="label">Django</span><div class="bar"><div class="fill" style="width: 90%;"></div><span class="percentage">90%</span></div></div>
+                        <div class="progress-bar"><span class="label">DRF</span><div class="bar"><div class="fill" style="width: 85%;"></div><span class="percentage">85%</span></div></div>
+                        <div class="progress-bar"><span class="label">GitHub</span><div class="bar"><div class="fill" style="width: 70%;"></div><span class="percentage">70%</span></div></div>
+                        <div class="progress-bar"><span class="label">React Native</span><div class="bar"><div class="fill" style="width: 50%;"></div><span class="percentage">50%</span></div></div>
+                        <div class="progress-bar"><span class="label">Docker</span><div class="bar"><div class="fill" style="width: 40%;"></div><span class="percentage">40%</span></div></div>
+                        <div class="progress-bar"><span class="label">Bash Scripting</span><div class="bar"><div class="fill" style="width: 69%;"></div><span class="percentage">69%</span></div></div>
+                    </div>
+                </div>
+
+                <div class="soft-skills">
+                    <p class="education-title progress-title">Soft Skills</p>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Leadership</li>
+                        <li>Problem-Solving</li>
+                        <li>System Architecture</li>
+                        <li>Database Design</li>
+                        <li>Adaptability</li>
+                        <li>Continuous Learning</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- EXPERIENCE -->
+            <div id="experience" class="resume-sub-menu timeline-details-overall">
+                <p class="year-duration">2024 - 2025</p>
+                <p class="education-title">Experience Timeline</p>
+
+                <div class="timeline">
+                    <div class="timeline-aside timeline-left">
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content highlighted">
+                                    <p class="timeline-content-header">Backend Intern</p>
+                                    <p class="timeline-content-institute">HNG Internship (July 2024 - August 2024)</p>
+                                </div>
+                                <div class="timeline-item-body">Worked on backend API development using Django REST Framework. Implemented authentication endpoints and deployed APIs to a live environment for integration testing.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content">
+                                    <p class="timeline-content-header">Freelance Developer</p>
+                                    <p class="timeline-content-institute">Personal Gig (May 2025)</p>
+                                </div>
+                                <div class="timeline-item-body">Developed a website uptime monitoring system using Django, Celery, and React. Integrated task automation, real-time status checks, and alert notifications.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-aside timeline-right">
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content highlighted">
+                                    <p class="timeline-content-header">Hackathon Participation</p>
+                                    <p class="timeline-content-institute">SpaceHack 2024</p>
+                                </div>
+                                <div class="timeline-item-body">Participated in a 48-hour hackathon focusing on innovative space-related tech solutions, contributing to the backend architecture of a collaborative project.</div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content">
+                                    <p class="timeline-content-header">Certifications</p>
+                                    <p class="timeline-content-institute">HNG, NACOSS</p>
+                                </div>
+                                <div class="timeline-item-body">Earned recognition and certifications for outstanding participation and project delivery during internships and departmental tech initiatives.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INTERVIEW / EXTRAS -->
+            <div id="interview" class="resume-sub-menu timeline-details-overall">
+                <p class="year-duration">Highlights</p>
+                <p class="education-title">Achievements & Goals</p>
+
+                <div class="timeline">
+                    <div class="timeline-aside timeline-left">
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content highlighted">
+                                    <p class="timeline-content-header">Career Objective</p>
+                                </div>
+                                <div class="timeline-item-body">To build scalable systems and contribute to open-source technologies that improve developer workflows, system reliability, and software maintainability.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-aside timeline-right">
+                        <div class="timeline-item">
+                            <div class="timeline-line"></div>
+                            <div class="timeline-group">
+                                <div class="timeline-content highlighted">
+                                    <p class="timeline-content-header">Vision</p>
+                                </div>
+                                <div class="timeline-item-body">To become a versatile full-stack engineer and tech lead capable of designing robust, distributed systems that solve real-world problems efficiently.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+
+
+
+                
+            <!-- <section id="resume">
+                <p class="resume-tagline tagline">3+ Years of Experience</p>
+                <p class="resume-title title">My Resume</p>
+                <div>
+                    <ul>
+                        <li id="resume-active"><a href="#">EDUCATION</a> <span class="fa fa-education"></span></li>
+                        <li><a href="#">PRO SKILLS</a> <span class="fa fa-education"></span></li>
+                        <li><a href="#">EXPERIENCE</a> <span class="fa fa-education"></span></li>
+                        <li><a href="#">INTERVIEW</a> <span class="fa fa-education"></span></li>
+                    </ul>
+
+                        <article class="resume-menu">
+
+                            <div id="education" class="resume-sub-menu timeline-details-overall">
+                                <p class="year-duration">2012 - 2020</p>
+                                <p class="education-title">Education Quality</p>
+                                <div class="timeline">
+                                    <div class="timeline-aside timeline-left">
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content highlighted">
+                                                    <p class="timeline-content-header">Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">University of DVI (1997 - 2001)</p>
+                                                    <span class="rating">4.30/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-content-header">Examples of Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">College of Studies (2000 - 2002)</p>
+                                                    <span class="rating">4.50/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-aside timeline-right">
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content highlighted">
+                                                    <p class="timeline-content-header">Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">University of DVI (1997 - 2001)</p>
+                                                    <span class="rating">4.30/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-content-header">Diploma in Computer Science</h3>
+                                                    <p class="timeline-content-institute">Plugin Development (2016 - 2020)</p>
+                                                    <span class="rating">5.00/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+
+                            <div id="pro-skills" class="resume-sub-menu pro-skills">
+                                <p class="year-duration">2012 - 2020</p>
+                                <p class="education-title progress-title">Education Quality</p>
+                                <div class="professional-skill-container">
+                                    <div class="progress-container">
+                                        <div class="progress-bar">
+                                            <span class="label">HTML</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 85%;"></div>
+                                                <span class="percentage">85%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">CSS</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 80%;"></div>
+                                                <span class="percentage">80%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">JAVASCRIPT</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 90%;"></div>
+                                                <span class="percentage">90%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">SOFTWARE</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 75%;"></div>
+                                                <span class="percentage">75%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">PLUGIN</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 70%;"></div>
+                                                <span class="percentage">70%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar">
+                                            <span class="label">HTML</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 85%;"></div>
+                                                <span class="percentage">85%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">CSS</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 80%;"></div>
+                                                <span class="percentage">80%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">JAVASCRIPT</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 90%;"></div>
+                                                <span class="percentage">90%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">SOFTWARE</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 75%;"></div>
+                                                <span class="percentage">75%</span>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="progress-bar">
+                                            <span class="label">PLUGIN</span>
+                                            <div class="bar">
+                                                <div class="fill" style="width: 70%;"></div>
+                                                <span class="percentage">70%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                            <div id="experience" class="resume-sub-menu timeline-details-overall">
+                                <p class="year-duration">2012 - 2020</p>
+                                <p class="education-title">Education Quality</p>
+                                <div class="timeline">
+                                    <div class="timeline-aside timeline-left">
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content highlighted">
+                                                    <p class="timeline-content-header">Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">University of DVI (1997 - 2001)</p>
+                                                    <span class="rating">4.30/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-content-header">Examples of Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">College of Studies (2000 - 2002)</p>
+                                                    <span class="rating">4.50/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-aside timeline-right">
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content highlighted">
+                                                    <p class="timeline-content-header">Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">University of DVI (1997 - 2001)</p>
+                                                    <span class="rating">4.30/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-content-header">Diploma in Computer Science</h3>
+                                                    <p class="timeline-content-institute">Plugin Development (2016 - 2020)</p>
+                                                    <span class="rating">5.00/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+
+
+                            <div id="interview" class="resume-sub-menu timeline-details-overall">
+                                <p class="year-duration">2012 - 2020</p>
+                                <p class="education-title">Education Quality</p>
+                                <div class="timeline">
+                                    <div class="timeline-aside timeline-left">
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content highlighted">
+                                                    <p class="timeline-content-header">Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">University of DVI (1997 - 2001)</p>
+                                                    <span class="rating">4.30/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-content-header">Examples of Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">College of Studies (2000 - 2002)</p>
+                                                    <span class="rating">4.50/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-aside timeline-right">
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content highlighted">
+                                                    <p class="timeline-content-header">Personal Portfolio</h3>
+                                                    <p class="timeline-content-institute">University of DVI (1997 - 2001)</p>
+                                                    <span class="rating">4.30/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <div class="timeline-line"></div>
+                                            <div class="timeline-group">
+                                                <div class="timeline-content">
+                                                    <p class="timeline-content-header">Diploma in Computer Science</h3>
+                                                    <p class="timeline-content-institute">Plugin Development (2016 - 2020)</p>
+                                                    <span class="rating">5.00/5</span>
+                                                </div>
+                                                <div class="timeline-item-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maxime deleniti nisi alias, odio tenetur hic illum accusantium iure nam optio maiores corporis in? Explicabo!</div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section> -->
+    
+
+
+
+            <section id="tech-stack">
+                <p class="tagline tech-stack-tagline">Tech Stack</p>
+                <p class="title tech-stack-title">Tech Stack</p>
+                <div class="tech-stack-container">
+                    <div class="left-panel">
+                        <ul>
+                            <li id="tech-active">Frontend</li>
+                            <li>Backend</li>
+                            <li>Full Stack</li>
+                            <li>Languages</li>
+                        </ul>
+                    </div>
+
+                    <div class="right-panel">
+
+                        <!-- FRONTEND STACK -->
+                        <div class="tech-sub-menu" id="frontend">
+                            <div class="card">HTML</div>
+                            <div class="card">CSS</div>
+                            <div class="card">JavaScript</div>
+                            <div class="card">React</div>
+                            <div class="card">jQuery</div>
+                            <div class="card">Bootstrap</div>
+                            <div class="card">TailwindCSS</div>
+                            <div class="card">React Native</div>
+                        </div>
+
+                        <!-- BACKEND STACK -->
+                        <div class="tech-sub-menu" id="backend">
+                            <div class="card">Python</div>
+                            <div class="card">Django</div>
+                            <div class="card">Django REST Framework</div>
+                            <div class="card">PHP</div>
+                            <div class="card">Node.js</div>
+                            <div class="card">PostgreSQL</div>
+                            <div class="card">MySQL</div>
+                            <div class="card">SQLite</div>
+                            <div class="card">Redis</div>
+                        </div>
+
+                        <!-- FULL STACK -->
+                        <div class="tech-sub-menu" id="fullstack">
+                            <div class="card">React + Django</div>
+                            <div class="card">React + DRF</div>
+                            <div class="card">Next.js + Django</div>
+                            <div class="card">RESTful APIs</div>
+                            <div class="card">Git & GitHub</div>
+                            <div class="card">Docker</div>
+                            <div class="card">CI/CD Pipelines</div>
+                            <div class="card">NGINX</div>
+                            <div class="card">Vercel / Render</div>
+                        </div>
+
+                        <!-- LANGUAGES -->
+                        <div class="tech-sub-menu" id="languages">
+                            <div class="card">Python</div>
+                            <div class="card">JavaScript</div>
+                            <div class="card">C++</div>
+                            <div class="card">Java</div>
+                            <div class="card">PHP</div>
+                            <div class="card">Bash Script</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+            <!-- <section id="tech-stack">
+                <p class="tagline tech-stack-tagline">Tech Stack</p>
+                <p class="title tech-stack-title">Tech Stack</p>
+                <div class="tech-stack-container">
+                    <div class="left-panel">
+                        <ul>
+                            <li class="active">Frontend</li>
+                            <li>Backend</li>
+                            <li>Full Stack</li>
+                            <li>Languages</li>
+                        </ul>
+                    </div>
+                    <div class="right-panel">
+                        <div class="card">HTML</div>
+                        <div class="card">CSS</div>
+                        <div class="card">JavaScript</div>
+                        <div class="card">React</div>
+                        <div class="card">Angular</div>
+                        <div class="card">Vue</div>
+                        <div class="card">Django</div>
+                        <div class="card">Flask</div>
+                        <div class="card">Bootstrap</div>
+                        <div class="card">TailwindCSS</div>
+                        <div class="card">jQuery</div>
+                        <div class="card">Redux</div>
+                        <div class="card">PHP</div>
+                        <div class="card">Python</div>
+                        <div class="card">MySQL</div>
+                        <div class="card">MongoDB</div>
+                        <div class="card">Git</div>
+                        <div class="card">Docker</div>
+                        <div class="card">Postman</div>
+                        <div class="card">Node.js</div>
+                    </div>
+                </div>
+            </section>
+     -->
+
+
+
+
+            <section id="testimonial">
+                <p class="testimonial-tagline tagline">WHAT CLIENTS SAY</p>
+                <p class="testimonial-title title">Testimonials</p>
+                <div class="testimonial-slider-parent">
+                    <div class="testimonial-navigation">
+                        <span class="fa fa-arrow-left testimonial-left"></span>
+                        <span class="fa fa-arrow-right testimonial-right"></span>
+                    </div>
+                    <div class="testimonial-slider">
+                        <div class="testimonial-wrapper">
+
+                            <!-- Abraham -->
+                            <div class="testimonial-section testimonial-section-active">
+                                <div class="testimonial-user">
+                                    <div class="testimonial-img">
+                                        <img src="images/hero-section-backgroun-image-02.jpeg" alt="Testifier">
+                                    </div>
+                                    <div class="testimonial-user-grid-display">
+                                        <p class="testifiers-name">Peter</p>
+                                        <p class="testifiers-position">Software Developer, Lagos</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <div class="testimonial-top-right-div">
+                                        <span class="quote-icon fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="testimonial-details">
+                                        <div class="testimonial-details-more">
+                                            <p class="job-title">Backend Development (API Integration)</p>
+                                            <p class="job-duration">via HNG Internship — Jul 2024 - Aug 2024</p>
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p class="testimonial-text">
+                                            Working with Franklin was a great experience. His understanding of API design and backend architecture stood out during our internship project. He handled complex integrations smoothly and ensured every endpoint was properly documented and tested. His attention to detail and debugging skills saved us hours of development time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Okumbor -->
+                            <div class="testimonial-section">
+                                <div class="testimonial-user">
+                                    <div class="testimonial-img">
+                                        <img src="images/hero-section-backgroun-image-02.jpeg" alt="Testifier">
+                                    </div>
+                                    <div class="testimonial-user-grid-display">
+                                        <p class="testifiers-name">Precious Chisom</p>
+                                        <p class="testifiers-position">Lecturer, University of Calabar</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <div class="testimonial-top-right-div">
+                                        <span class="quote-icon fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="testimonial-details">
+                                        <div class="testimonial-details-more">
+                                            <p class="job-title">Class Attendance System (Academic Project)</p>
+                                            <p class="job-duration">May 2025</p>
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star-half-o"></span>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p class="testimonial-text">
+                                            Franklin’s attendance management system made monitoring class attendance so much easier. The QR code refresh system was very efficient and secure. I was impressed by how he built both the frontend and backend independently while maintaining clean architecture and user-friendly design. A very dependable and disciplined developer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Franklin -->
+                            <div class="testimonial-section">
+                                <div class="testimonial-user">
+                                    <div class="testimonial-img">
+                                        <img src="images/hero-section-backgroun-image-02.jpeg" alt="Testifier">
+                                    </div>
+                                    <div class="testimonial-user-grid-display">
+                                        <p class="testifiers-name">Esther Perry</p>
+                                        <p class="testifiers-position">Freelance Client</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <div class="testimonial-top-right-div">
+                                        <span class="quote-icon fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="testimonial-details">
+                                        <div class="testimonial-details-more">
+                                            <p class="job-title">Website Uptime Monitoring System</p>
+                                            <p class="job-duration">May 2025</p>
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p class="testimonial-text">
+                                            I hired Franklin to build a website uptime monitor for my small business sites. The system works flawlessly — it sends me alerts immediately if any site goes down. What I love most is his dedication to making sure everything is efficient and stable. He even added analytics and error logging features I didn’t request initially.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Diamond -->
+                            <div class="testimonial-section">
+                                <div class="testimonial-user">
+                                    <div class="testimonial-img">
+                                        <img src="images/hero-section-backgroun-image-02.jpeg" alt="Testifier">
+                                    </div>
+                                    <div class="testimonial-user-grid-display">
+                                        <p class="testifiers-name">Paul Idehen</p>
+                                        <p class="testifiers-position">Frontend Designer</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <div class="testimonial-top-right-div">
+                                        <span class="quote-icon fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="testimonial-details">
+                                        <div class="testimonial-details-more">
+                                            <p class="job-title">Portfolio Collaboration</p>
+                                            <p class="job-duration">June 2025</p>
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star-half-o"></span>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p class="testimonial-text">
+                                            Collaborating with Franklin on his portfolio site was refreshing. He had a clear design vision and implemented it with precision using React and CSS animations. He combines creativity with strong technical skills — definitely one of the best frontend-backend hybrids I’ve worked with.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tessy -->
+                            <div class="testimonial-section">
+                                <div class="testimonial-user">
+                                    <div class="testimonial-img">
+                                        <img src="images/hero-section-backgroun-image-02.jpeg" alt="Testifier">
+                                    </div>
+                                    <div class="testimonial-user-grid-display">
+                                        <p class="testifiers-name">Emmanuel Igbeng</p>
+                                        <p class="testifiers-position">Tech Enthusiast</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <div class="testimonial-top-right-div">
+                                        <span class="quote-icon fa fa-quote-left"></span>
+                                    </div>
+                                    <div class="testimonial-details">
+                                        <div class="testimonial-details-more">
+                                            <p class="job-title">Personal Blog Website (Vlog)</p>
+                                            <p class="job-duration">September 2025</p>
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <p class="testimonial-text">
+                                            Franklin helped me set up my blog “Vlog” from scratch, and I couldn’t be happier with the outcome. The CMS is smooth, responsive, and easy to use. He communicated consistently throughout development and delivered ahead of schedule. I highly recommend him for anyone looking for quality and reliability.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> <!-- testimonial-wrapper -->
+                    </div> <!-- testimonial-slider -->
+                </div> <!-- testimonial-slider-parent -->
+            </section>
+
+
+
+
+
+            <!-- <section id="testimonial">
+                <p class="testimonial-tagline tagline">WHAT SAYS OUR CLIENTS</p>
+                <p class="testimonial-title title">Testimonial</p>
+                <div class="testimonial-slider-parent">
+                    <div class="testimonial-navigation">
+                        <span class="fa fa-arrow-left testimonial-left"></span>
+                        <span class="fa fa-arrow-right testimonial-right"></span>
+                    </div>
+                    <div class="testimonial-slider">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-section testimonial-section-active">
+                                    <div class="testimonial-user">
+                                        <div class="testimonial-img">
+                                            <img src="images/hero-section-backgroun-image.jpeg" alt="Testifier">
+                                        </div>
+                                        <div class="testimonial-user-grid-display">
+                                            <p class="testifiers-name">Abraham</p>
+                                            <p class="testifiers-position">Student</p>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-top-right-div">
+                                            <span class="quote-icon fa fa-quote-left"></span>
+                                        </div>
+                                        <div class="testimonial-details">
+                                            <div class="testimonial-details-more">
+                                                <p class="job-title">Frontend Design</p>
+                                                <p class="job-duration">via Upwork - Mar 4, 2015 - Aug 15, 2025</p>
+                                                <div class="testimonial-rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed aliquid vitae voluptatem deleniti aliquam nihil tenetur ex, hic consectetur odit laudantium necessitatibus voluptatum? Soluta.</p>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="testimonial-section">
+                                    <div class="testimonial-user">
+                                        <div class="testimonial-img">
+                                            <img src="images/hero-section-backgroun-image.jpeg" alt="Testifier">
+                                        </div>
+                                        <div class="testimonial-user-grid-display">
+                                            <p class="testifiers-name">Okumbor</p>
+                                            <p class="testifiers-position">Student</p>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-top-right-div">
+                                            <span class="quote-icon fa fa-quote-left"></span>
+                                        </div>
+                                        <div class="testimonial-details">
+                                            <div class="testimonial-details-more">
+                                                <p class="job-title">Frontend Design</p>
+                                                <p class="job-duration">via Upwork - Mar 4, 2015 - Aug 15, 2025</p>
+                                                <div class="testimonial-rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed aliquid vitae voluptatem deleniti aliquam nihil tenetur ex, hic consectetur odit laudantium necessitatibus voluptatum? Soluta.</p>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="testimonial-section">
+                                    <div class="testimonial-user">
+                                        <div class="testimonial-img">
+                                            <img src="images/hero-section-backgroun-image.jpeg" alt="Testifier">
+                                        </div>
+                                        <div class="testimonial-user-grid-display">
+                                            <p class="testifiers-name">Franklin</p>
+                                            <p class="testifiers-position">Student</p>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-top-right-div">
+                                            <span class="quote-icon fa fa-quote-left"></span>
+                                        </div>
+                                        <div class="testimonial-details">
+                                            <div class="testimonial-details-more">
+                                                <p class="job-title">Frontend Design</p>
+                                                <p class="job-duration">via Upwork - Mar 4, 2015 - Aug 15, 2025</p>
+                                                <div class="testimonial-rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed aliquid vitae voluptatem deleniti aliquam nihil tenetur ex, hic consectetur odit laudantium necessitatibus voluptatum? Soluta.</p>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="testimonial-section">
+                                    <div class="testimonial-user">
+                                        <div class="testimonial-img">
+                                            <img src="images/hero-section-backgroun-image.jpeg" alt="Testifier">
+                                        </div>
+                                        <div class="testimonial-user-grid-display">
+                                            <p class="testifiers-name">Diamond</p>
+                                            <p class="testifiers-position">Student</p>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-top-right-div">
+                                            <span class="quote-icon fa fa-quote-left"></span>
+                                        </div>
+                                        <div class="testimonial-details">
+                                            <div class="testimonial-details-more">
+                                                <p class="job-title">Frontend Design</p>
+                                                <p class="job-duration">via Upwork - Mar 4, 2015 - Aug 15, 2025</p>
+                                                <div class="testimonial-rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed aliquid vitae voluptatem deleniti aliquam nihil tenetur ex, hic consectetur odit laudantium necessitatibus voluptatum? Soluta.</p>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="testimonial-section">
+                                    <div class="testimonial-user">
+                                        <div class="testimonial-img">
+                                            <img src="images/hero-section-backgroun-image.jpeg" alt="Testifier">
+                                        </div>
+                                        <div class="testimonial-user-grid-display">
+                                            <p class="testifiers-name">Tessy</p>
+                                            <p class="testifiers-position">Student</p>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-top-right-div">
+                                            <span class="quote-icon fa fa-quote-left"></span>
+                                        </div>
+                                        <div class="testimonial-details">
+                                            <div class="testimonial-details-more">
+                                                <p class="job-title">Frontend Design</p>
+                                                <p class="job-duration">via Upwork - Mar 4, 2015 - Aug 15, 2025</p>
+                                                <div class="testimonial-rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <p class="testimonial-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sed aliquid vitae voluptatem deleniti aliquam nihil tenetur ex, hic consectetur odit laudantium necessitatibus voluptatum? Soluta.</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section> -->
+    
+            <section id="contact">
+                <p class="tagline">Contact</p>
+                <p class="title">Contact With Me</p>
+                <div class="contact-gap">
+                    <!-- Left Side -->
+                    <div class="contact-left-divide">
+                        <div class="contact-image-div">
+                            <img src="images/profile-pic.jpeg" alt="">
+                        </div>
+                        <p class="my-name">OKUMBOR FRANKLIN</p>
+                        <p class="my-job-description">Chief Operating Officer</p>
+                        <p class="avaliability">
+                            I am available for freelance work. Connect with me via call or email.
+                        </p>
+                        <p class="my-phone">Phone: <span>+234 9072574268</span></p>
+                        <p class="my-email">Email: <span>okumborfranklin@gmail.com</span></p>
+            
+                        <p class="contact-find-me find-me">FIND ME WITH</p>
+                        <div class="contact-social-media-icon social-media-icon-div">
+                            <span class="fa-brands fa-facebook social-media-icon"></span>
+                            <span class="fa-brands fa-whatsapp social-media-icon"></span>
+                            <span class="fa-solid fa-envelope social-media-icon"></span>
+                        </div>
+                    </div>
+            
+                    <!-- Right Side (Form) -->
+                    <div class="contact-right-divide">
+                        <!-- Two-Column Name & Phone -->
+                        <div class="upper-contact-input">
+                            <div class="contact-input">
+                                <label for="">Your Name</label>
+                                <input type="text" class="contact-input-field">
+                            </div>
+                            <div class="contact-input">
+                                <label for="">Phone Number</label>
+                                <input type="text" class="contact-input-field">
+                            </div>
+                        </div>
+            
+                        <div class="contact-input">
+                            <label for="">Email</label>
+                            <input type="text" class="contact-input-field">
+                        </div>
+                        <div class="contact-input">
+                            <label for="">Subject</label>
+                            <input type="text" class="contact-input-field">
+                        </div>
+                        <div class="contact-input">
+                            <label for="">Your Message</label>
+                            <textarea class="contact-input-field" rows="15"></textarea>
+                        </div>
+                        
+                        <button>
+                            SEND MESSAGE <span class="fa fa-arrow-right"></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <footer id="footer">
+            <hr>
+            <p>&copy; 2025. All rights reserved by OKUMBOR FRANKLIN</p>
+        </footer>
+    </aside>
+
+
+    <script src="scripts.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tabs = document.querySelectorAll("#resume ul li");
+            const sections = document.querySelectorAll(".resume-sub-menu");
+
+            function showSection(index) {
+                sections.forEach((section, i) => {
+                    if (i === index) {
+                        section.classList.add("active");
+                    } else {
+                        section.classList.remove("active");
+                    }
+                });
+            }
+
+            tabs.forEach((tab, index) => {
+                tab.addEventListener("click", () => {
+                    // Remove active id from all tabs
+                    tabs.forEach(t => t.removeAttribute("id"));
+                    // Assign active id to clicked tab
+                    tab.setAttribute("id", "resume-active");
+                    // Show the corresponding section
+                    showSection(index);
+                });
+            });
+
+            // Show first section (Education) on load
+            showSection(0);
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tabs = document.querySelectorAll("#tech-stack .left-panel ul li");
+            const sections = document.querySelectorAll("#tech-stack .tech-sub-menu");
+
+            tabs.forEach((tab, index) => {
+                tab.addEventListener("click", () => {
+                    // remove active class/id from all tabs
+                    tabs.forEach(t => t.removeAttribute("id"));
+                    // hide all sub-sections
+                    sections.forEach(section => section.style.display = "none");
+
+                    // set clicked tab as active
+                    tab.setAttribute("id", "tech-active");
+                    // show the corresponding section
+                    sections[index].style.display = "grid";
+                });
+            });
+
+            // show only the first section on load
+            sections.forEach((section, i) => {
+                section.style.display = i === 0 ? "grid" : "none";
+            });
+        });
+    </script>
+
+</body>
+</html>

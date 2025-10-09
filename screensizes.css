@@ -1,0 +1,95 @@
+/* General Styles (Mobile Optimization) */
+body {
+    font-size: 14px; /* Slightly smaller font for better mobile fit */
+    line-height: 1.6;
+    padding: 10px;
+}
+
+/* HEADER */
+header {
+    /* text-align: center; */
+    /* padding: 12px 10px; */
+}
+
+nav a {
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+/* HERO SECTION */
+.hero h1 {
+    font-size: 20px; /* Smaller title for better fit */
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.hero p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.hero img {
+    max-width: 280px; /* Slightly reduced for smaller screens */
+}
+
+/* FEATURES SECTION */
+.title-body {
+    font-size: 15px; /* Reduced font size for better alignment */
+    font-weight: bold;
+}
+
+.text-body {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio-item h3 {
+    font-size: 15px; /* Adjusted for better mobile scaling */
+}
+
+.portfolio-item p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* RESUME SECTION */
+.resume-item h3 {
+    font-size: 15px; /* Keep headers readable */
+}
+
+.resume-item p {
+    font-size: 13px;
+}
+
+/* TECH STACK */
+.tech-stack img {
+    max-width: 45px; /* Slightly reduced for smaller screens */
+}
+
+.tech-stack p {
+    font-size: 12px;
+}
+
+/* TESTIMONIAL */
+.testimonial-item p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* CONTACT FORM */
+.contact input,
+.contact textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.contact button {
+    font-size: 14px;
+    padding: 12px;
+}
+
+/* FOOTER */
+footer {
+    font-size: 12px;
+}

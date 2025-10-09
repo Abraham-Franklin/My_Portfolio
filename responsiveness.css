@@ -1,0 +1,696 @@
+@media screen and (max-width: 1600px){
+    .testimonial-slider-parent{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1334px){
+    .navigation-nav-bar{
+        display: flex;
+    }
+
+    header {
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -250px; /* Initially hidden off-screen */
+        background-color: var(--bg-color); /* Adjust as needed */
+        transition: transform 0.4s ease-in-out;
+        z-index: 100;
+    }
+
+    header.active {
+        transform: translateX(250px); /* Slide in */
+    }
+
+    #hero-section{
+        width: 100%;
+        height: 100vh;
+        background: url(images/hero-section-backgroun-image-06.jpeg), var(--bg-color);
+        background-blend-mode: luminosity;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .hero-section-child-div{
+        padding-top: 15%;
+    }
+
+    #resume{
+        padding: 5 3.5%;
+    }
+
+    .testimonial-section {
+        flex-direction: column;
+        gap: 5%;
+    }
+
+    .testimonial-user{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .testimonial-img{
+        max-width: 90%;
+        max-height: 15vh;
+        min-height: 15vh;
+    }
+
+    .testimonial-user-grid-display{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .testimonial-top-right-div {
+        display: none;
+    }
+
+    .testimonial-slider-parent{
+        max-width: 80%;
+    }
+
+    .testimonial-user {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .testimonial-details {
+        margin-top: 3%;
+    }
+
+    .testimonial-img{
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-bottom: 10%;
+    }
+
+    .testifiers-name{
+        font-size: 30px;
+    }
+    
+    .testifiers-position{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 1234px){
+    .testimonial-slider-parent{
+        max-width: 85%;
+    }
+
+    .testimonial-details .testimonial-text {
+        font-size: 15px;
+    }
+
+    .contact-gap {
+        width: 90%;
+    }
+
+    .contact-gap {
+        width: 80%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    /* Left Section */
+    .contact-left-divide{
+        width: 100%;
+    }
+
+    .contact-right-divide {
+        width: 100%;
+    }
+
+    .upper-contact-input {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    
+    .upper-contact-input .contact-input {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 1034px){
+    #hero-section{
+    width: 100%;
+    height: 100vh;
+    background: url(images/hero-section-backgroun-image-06.jpeg), var(--bg-color);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position-x: 90%; */
+    }
+
+
+
+    .testimonial-slider-parent{
+        max-width: 92%;
+    }
+
+    .testimonial-slider-parent{
+        width: 100%;
+    }
+
+    .testimonial-section{
+        width: 100%;
+    }
+
+    .testimonial-content, .testimonial-user{
+        min-width: 100%;
+    }
+
+    .testimonial-details{
+        text-align: left;
+    }
+}
+
+
+
+@media screen and (max-width: 970px){
+
+    .features-gallery, .portfolio-gallery {
+        grid-template-columns: auto auto;
+    }
+
+    #resume{
+        padding: 5% 2%;
+    }
+
+    .timeline{
+        gap: 40px;
+        flex-direction: column;
+    }
+    
+    .timeline-right::before{
+        display: none;
+    }
+
+
+    .testimonial-slider-parent{
+        max-width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width: 840px){
+    #hero-section{
+        background-size: 250%;
+        background-position-x: 50%;
+    }
+
+    .hero-section-child-div{
+        min-width: 75%;
+        padding-top: 35%;
+    }
+
+    #resume ul li a{
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    #hero-section{
+        width: 100%;
+        height: 100vh;
+        background: url(images/hero-section-background-fix.png), var(--bg-color);
+        background-blend-mode: luminosity;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 120%;
+        background-attachment: fixed;
+        /* background-position-x: 90%; */
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* General Styles */
+    #hero-section{
+        width: 100%;
+        height: 100vh;
+        background: url(images/hero-section-backgroun-image-06.jpeg), var(--bg-color);
+        background-blend-mode: luminosity;
+        background-repeat: no-repeat;
+        background-position:  center;
+        background-size: cover;
+        background-attachment: fixed;
+        /* background-position-x: 90%; */
+    }
+
+    .hero-section-child-div{
+        text-align: center;
+        width: 45%;
+        margin: 0 auto;
+        padding-top: 35%;
+    }
+    
+    .my-name{
+        font-size: 25px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: rgb(233, 233, 233);
+        margin-bottom: 3%;
+    }
+    
+    .my-id{
+        font-size: 20px;
+        font-family: Poppins;
+        font-weight: 800;
+        color: rgb(233, 233, 233);
+        margin-bottom: 2%;
+        color: #ea0046;
+    }
+    
+    .my-description{
+        font-size: 13px;
+    }
+
+
+    .tagline{
+        font-size: 12px;
+    }
+    
+    .title{
+        font-size: 30px;
+    }
+
+    /* 🔹 Container Adjustments */
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* ========== 📌 TESTIMONIAL SECTION ========== */
+    #testimonial {
+        padding: 40px 10px;
+        text-align: center;
+    }
+
+    .testimonial-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .testimonial-user {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .testimonial-img {
+        height: 20vh;
+    }
+
+    .testimonial-navigation {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .testimonial-navigation span {
+        padding: 15px;
+    }
+
+    .testimonial-content {
+        text-align: center;
+    }
+
+    .quote-icon {
+        font-size: 60px;
+    }
+
+    /* ========== 📌 CONTACT SECTION ========== */
+    #contact {
+        padding: 30px 0;
+    }
+
+    .contact-gap {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .contact-left-divide,
+    .contact-right-divide {
+        width: 100%;
+    }
+
+    .contact-left-divide .contact-image-div {
+        height: 25vh;
+    }
+
+    .upper-contact-input {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Input Field */
+    .contact-input-field {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Button */
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* ========== 📌 FOOTER ========== */
+    #footer {
+        padding: 5%;
+    }
+
+    #footer hr {
+        width: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* General Container Adjustments */
+    .container {
+        width: 85%;
+        margin: auto;
+    }
+
+    /* ========== 📌 TESTIMONIAL SECTION ========== */
+    .testimonial-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4%;
+    }
+
+    .testimonial-slider-parent {
+        max-width: 80%;
+    }
+
+    .testimonial-user {
+        width: 45%;
+        padding: 4%;
+    }
+
+    .testimonial-img {
+        height: 22vh;
+    }
+
+    .testimonial-content {
+        text-align: left;
+    }
+
+    .quote-icon {
+        font-size: 80px;
+    }
+
+    /* ========== 📌 CONTACT SECTION ========== */
+    .contact-gap {
+        flex-direction: row;
+        gap: 25px;
+        width: 90%;
+    }
+
+    .contact-left-divide, 
+    .contact-right-divide {
+        width: 48%;
+        padding: 4%;
+    }
+
+    .contact-left-divide .contact-image-div {
+        height: 28vh;
+    }
+
+    /* Upper Inputs */
+    .upper-contact-input {
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    /* Input Field */
+    .contact-input-field {
+        padding: 14px;
+    }
+
+    /* Button */
+    button {
+        width: 100%;
+        padding: 14px;
+    }
+
+    /* ========== 📌 FOOTER ========== */
+    #footer {
+        padding: 4%;
+    }
+
+    #footer hr {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 740px){
+    .professional-skill-container{
+        flex-direction: column;
+    }
+
+    .progress-container {
+        width: 100%;
+    }
+
+    #tech-stack{
+        padding: 3.5%;
+    }
+
+    .tech-stack-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0%;
+        padding: 0 9%;
+    }
+
+    .left-panel {
+        width: 100%;
+        margin-bottom: 5%;
+        max-height: fit-content;
+    }
+
+    .left-panel li {
+        padding: 4% 8%;
+    }
+
+    .right-panel {
+    grid-template-columns: 2fr 2fr;
+    width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .tagline{
+        margin-top: 30%;
+    }
+    .hero-section-child-div{
+        min-width: 75%;
+        padding-top: 40%;
+    }
+    .features-gallery, .portfolio-gallery {
+        grid-template-columns: auto;
+        gap: 1%;
+    }
+
+    .contact-gap{
+        padding: 0%;
+    }
+
+    .work-text-body{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .hero-section-child-div{
+        min-width: 80%;
+        padding-top: 35%;
+    }
+
+    .my-name{
+        font-size: 22px;
+        font-family: Montserrat;
+        font-weight: 800;
+        color: rgb(233, 233, 233);
+        margin-bottom: 3%;
+    }
+
+    .my-id{
+        font-size: 17px;
+    }
+
+    .year-duration{
+        font-size: 12px;
+    }
+    
+    .education-title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hero-section-child-div{
+        min-width: 90%;
+        padding-top: 60%;
+    }
+
+    .timeline-content-header{
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 20px;
+        color: rgba(231, 229, 229, 0.97);
+    }
+    
+    .timeline-content-institute{
+        font-family: Poppins;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .timeline-item-body{
+        padding-top: 4%;
+        font-family: Poppins;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .work-text-body{
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 450px){
+    .hero-section-child-div{
+        text-align: center;
+        width: 45%;
+        margin: 0 auto;
+    }
+    
+
+    .education-title{
+        font-size: 20px;
+    }
+
+    .timeline-content-header{
+        font-size: 16px;
+    }
+
+    #tech-stack{
+        padding: 1.5%;
+    }
+
+    .tech-stack-container{
+        padding: 1%;
+    }
+
+    #resume{
+        padding: 0.5%;
+    }
+
+    #resume ul li a{
+        font-size: 10px;
+    }
+
+    #resume .timeline-item{
+        padding-left: 15px;
+    }
+
+    .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: -0.5%;
+        top: 21.3%;
+        width: 8px;
+        height: 8px;
+        background: var(--red-color);
+        border-radius: 50%;
+        border: 2px solid var(--border-color);
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 350px){
+    .hero-section-child-div{
+        text-align: center;
+        width: 45%;
+        margin: 0 auto;
+        padding-top: 35%;
+    }
+
+    .features-gallery{
+        gap: 1.8%;
+    }
+
+    .features-tile-sub-div {
+        padding: 2% 8%;
+        max-height: 65vh;
+    }
+
+    #portfolio{
+        margin-top: 30%;
+    }
+
+    #resume{
+        margin-top: 10%;
+    }
+}
