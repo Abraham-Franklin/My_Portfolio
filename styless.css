@@ -109,7 +109,6 @@ header .find-me{
     font-size: 30px;
     box-shadow: var(--box-shadow-hover);
     background: rgb(34, 37, 42);
-    color: white
 }
 
 .social-media-icon:hover{
@@ -388,7 +387,7 @@ aside::-webkit-scrollbar{
 #portfolio {
     width: 100%;
     border-top: 1px solid var(--border-color);
-    padding: 9%;
+    padding: 5%;
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -420,7 +419,7 @@ aside::-webkit-scrollbar{
     min-height: 80%;
     max-height: 80%;
     overflow: hidden;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-radius: 8px;
     transition: border-color 0.3s ease; /* Smooth border color change */
 }
@@ -431,7 +430,7 @@ aside::-webkit-scrollbar{
 
 .portfolio-image-scale img {
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     transform: scale(1); /* Default scale */
     transition: transform 0.5s ease-in-out; /* Smooth scaling */
 }
@@ -541,26 +540,27 @@ aside::-webkit-scrollbar{
 
 
 
-.resume-menu {
-    position: relative;
+
+#resume .resume-menu{
+    /* position: relative; */
     width: 100%;
+    /* height: max-content; */
 }
 
-.resume-sub-menu {
-    position: absolute;
+.resume-sub-menu{
+    /* position: absolute;
+    bottom: 0;
     top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    opacity: 0; */
+    display: none;
+    /* visibility: hidden; */
 }
 
-.resume-sub-menu.active {
-    opacity: 1;
-    visibility: visible;
-    position: relative;
+#education{
+    display: block !important;
+    /* visibility: visible; */
 }
+
 
 
 
@@ -616,17 +616,8 @@ aside::-webkit-scrollbar{
     left: 0.5%;
 }
 
-#education .timeline-right::before {
-    left: 52%;  /* Adjust this to align properly */
-}
-
-#experience .timeline-right::before {
-    left: 54.8%;  /* Adjust this to align properly */
-}
-
-
-#interview .timeline-right::before {
-    left: 53.6%;  /* Adjust this to align properly */
+.timeline-right::before {
+    left: 52.7%;  /* Adjust this to align properly */
 }
 
 .timeline-item {
@@ -807,27 +798,15 @@ aside::-webkit-scrollbar{
 
 
 
-#tech-stack{
+#tech-stack {
     width: 100%;
     padding: 5%;
     z-index: 3;
-    border-top: 1px solid var(--border-color);padding-bottom: 18%;
+    border-top: 1px solid var(--border-color);
 }
 
-
-.tech-stack-tagline, .tech-stack-title{
-    text-align: center
-}
-
-.tech-category {
-    display: flex;
-    gap: 5%;
-}
-.tech-category.active {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
-    row-gap: 2%;
-    column-gap: 3%;
+.tech-stack-tagline, .tech-stack-title {
+    text-align: left;
 }
 
 .tech-stack-container {
@@ -836,8 +815,7 @@ aside::-webkit-scrollbar{
 }
 
 .left-panel {
-    /* box-shadow: var(--box-shadow); */
-    box-shadow: -5px -5px 15px -6px rgba(255, 255, 255, 0.1), /* Top-left white */
+    box-shadow: -5px -5px 15px -6px rgba(255, 255, 255, 0.1),
     3px 3px 8px 1px rgba(0, 0, 0, 0.3);
     width: 30%;
     height: min-content;
@@ -848,7 +826,6 @@ aside::-webkit-scrollbar{
     list-style: none;
     width: 100%;
     border-radius: 10px;
-    /* border: 2px solid red; */
 }
 
 .left-panel li {
@@ -861,7 +838,7 @@ aside::-webkit-scrollbar{
     font-size: 18px;
 }
 
-.left-panel li:hover, .left-panel .active{
+.left-panel li:hover, .left-panel #tech-active {
     box-shadow: var(--box-shadow-hover);
     color: var(--red-color);
 }
@@ -897,13 +874,13 @@ aside::-webkit-scrollbar{
     font-family: Poppins;
     font-weight: bold;
     color: rgba(245, 245, 245, 0.85);
+    transition: 0.3s;
 }
+
 .card:hover {
     background: var(--bg-gradient-hover);
     color: var(--red-color);
-    /* color: #fff; */
 }
-
 
 
 

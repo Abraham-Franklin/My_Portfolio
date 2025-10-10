@@ -40,7 +40,7 @@
     }
 
     #resume{
-        padding: 5 3.5%;
+        padding: 5% 3.5%;
     }
 
     .testimonial-section {
@@ -181,6 +181,10 @@
 
 @media screen and (max-width: 970px){
 
+    body{
+        max-width: 100%;
+    }
+
     .features-gallery, .portfolio-gallery {
         grid-template-columns: auto auto;
     }
@@ -238,6 +242,14 @@
         background-size: 120%;
         background-attachment: fixed;
         /* background-position-x: 90%; */
+    }
+
+    #portfolio{
+        margin-bottom: 30%;
+    }
+
+    #resume{
+        padding-top: 0%;
     }
 }
 
@@ -497,6 +509,14 @@
 
 
 @media screen and (max-width: 740px){
+
+    aside{
+        width: 100%;
+        border: 5px solid white;
+    }
+
+    aside main{
+    }
     .professional-skill-container{
         flex-direction: column;
     }
