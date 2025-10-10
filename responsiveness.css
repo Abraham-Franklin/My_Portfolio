@@ -177,6 +177,23 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+  /* header {
+    display: none;
+  } */
+
+  .navigation-nav-bar {
+    display: flex !important;
+  }
+
+  aside {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+
 
 
 @media screen and (max-width: 970px){
@@ -512,7 +529,6 @@
 
     aside{
         width: 100%;
-        border: 5px solid white;
     }
 
     aside main{

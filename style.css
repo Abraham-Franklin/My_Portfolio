@@ -154,7 +154,7 @@ aside{
 
 .navigation-nav-bar img{
     width: 30px;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .navigation-nav-bar span{
@@ -632,7 +632,7 @@ aside{
 
 
 #interview .timeline-right::before {
-    left: 52.6%;  /* Adjust this to align properly */
+    left: 53%;  /* Adjust this to align properly */
 }
 
 .timeline-item {

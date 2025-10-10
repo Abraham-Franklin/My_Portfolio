@@ -3,7 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Franklin's Portfolio</title>
+
+    <meta name="description" content="I'm Okumbor Franklin, a passionate software developer specializing in Python, Django, React, and system architecture. Explore my projects, resume, and tech stack.">
+    <meta name="keywords" content="Okumbor Franklin, Okumbor Abraham, Okumbor Abraham Franklin, Abraham Franklin, software developer, Django developer, Python developer, React developer, portfolio, backend engineer, frontend engineer, web developer">
+    <meta name="author" content="Okumbor Franklin, Okumbor Abraham, Okumbor Abraham Franklin, Abraham Franklin,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Okumbor Franklin | Software Developer Portfolio">
+    <meta property="og:description" content="Explore my portfolio showcasing projects in Python, Django, and React. Passionate about automation and scalable systems.">
+    <meta property="og:image" content="https://abraham-franklin.github.io/My_Portfolio/images/profile-pic.jpeg">
+    <meta property="og:url" content="https://abraham-franklin.github.io/My_Portfolio/">
+    <meta property="og:site_name" content="Okumbor Abraham Franklin Portfolio">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Okumbor Abraham Franklin | Software Developer Portfolio">
+    <meta name="twitter:description" content="Explore my projects built with Python, Django, and React.">
+    <meta name="twitter:image" content="https://abraham-franklin.github.io/My_Portfolio/images/profile-pic.jpeg">
+
+
+
+    <!-- <title>Franklin's Portfolio</title> -->
+    <title>Okumbor Franklin | Software Developer Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsiveness.css">
     <!-- <link rel="stylesheet" href="screensizes.css"> -->
@@ -13,7 +42,7 @@
 </head>
 <body>
     <header>
-        <img class="profile-pic" src="images/profile-pic.jpeg" alt="profile pic">
+        <img class="profile-pic" src="images/profile-pic.jpeg" alt="Okumbor Abraham Franklin - Software Developer Portrait">
         <ol>
             <li><i class="fa-sharp fa-solid fa-house"></i> <a href="#hero-section">HOME</a></li>
             <li><i class="fa-sharp fa-solid fa-briefcase"></i> <a href="#features">FEATURES</a></li>
@@ -32,7 +61,7 @@
             </a>
 
             <!-- WhatsApp -->
-            <a href="https://wa.me/2348069614362" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/2349072574268" target="_blank" rel="noopener noreferrer">
                 <span class="fa-brands fa-whatsapp social-media-icon"></span>
             </a>
 
@@ -1226,14 +1255,25 @@
             
                         <p class="contact-find-me find-me">FIND ME WITH</p>
                         <div class="contact-social-media-icon social-media-icon-div">
-                            <span class="fa-brands fa-facebook social-media-icon"></span>
-                            <span class="fa-brands fa-whatsapp social-media-icon"></span>
-                            <span class="fa-solid fa-envelope social-media-icon"></span>
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/abraham-franklin-okumbor-430263225" target="_blank" rel="noopener noreferrer">
+                                <span class="fa-brands fa-linkedin social-media-icon"></span>
+                            </a>
+
+                            <!-- WhatsApp -->
+                            <a href="https://wa.me/2349072574268" target="_blank" rel="noopener noreferrer">
+                                <span class="fa-brands fa-whatsapp social-media-icon"></span>
+                            </a>
+
+                            <!-- Email -->
+                            <a href="mailto:okumborfranklin@gmail.com" target="_blank" rel="noopener noreferrer">
+                                <span class="fa-solid fa-envelope social-media-icon"></span>
+                            </a>
                         </div>
                     </div>
             
                     <!-- Right Side (Form) -->
-                    <div class="contact-right-divide">
+                    <form action="https://formspree.io/f/xvgwwryv" method="POST" class="contact-right-divide">
                         <!-- Two-Column Name & Phone -->
                         <div class="upper-contact-input">
                             <div class="contact-input">
@@ -1247,22 +1287,22 @@
                         </div>
             
                         <div class="contact-input">
-                            <label for="">Email</label>
-                            <input type="text" class="contact-input-field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="contact-input-field">
                         </div>
                         <div class="contact-input">
                             <label for="">Subject</label>
                             <input type="text" class="contact-input-field">
                         </div>
                         <div class="contact-input">
-                            <label for="">Your Message</label>
-                            <textarea class="contact-input-field" rows="15"></textarea>
+                            <label for="message">Your Message</label>
+                            <textarea name="message" class="contact-input-field" rows="15"></textarea>
                         </div>
                         
-                        <button>
+                        <button type="submit">
                             SEND MESSAGE <span class="fa fa-arrow-right"></span>
                         </button>
-                    </div>
+                    </f>
                 </div>
             </section>
             
@@ -1369,6 +1409,27 @@
             });
         });
     </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Okumbor Abraham Franklin",
+            "url": "https://abraham-franklin.github.io/My_Portfolio/",
+            "image": "https://abraham-franklin.github.io/My_Portfolio/images/profile-pic.jpeg",
+            "sameAs": [
+                "https://www.linkedin.com/in/abraham-franklin-okumbor-430263225",
+                "https://wa.me/2349072574268",
+                "mailto:okumborfranklin@gmail.com"
+            ],
+            "jobTitle": "Software Developer",
+            "worksFor": {
+                "@type": "Organization",
+                "name": "Freelance"
+            }
+        }
+    </script>
+
 
 </body>
 </html>
